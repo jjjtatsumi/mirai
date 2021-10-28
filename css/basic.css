@@ -65,3 +65,38 @@ body{
 	-ms-box-shadow:0 0 20px #ccc;
 	box-shadow:0 0 20px #ccc;
 }
+
+/*audhio ボタン
+audio {
+  display: none
+} */
+
+
+#play, #stop {
+  display: inline-block;
+  width: 55px;
+  height: 55px;
+  margin: 1em;
+  border-radius: 50%;
+  background: #ddd;
+  text-align: center;
+  line-height: 55px;
+  cursor: pointer;
+}
+
+
+#play:hover, #stop:hover {
+  background: #eee;
+}
+
+
+/*audhio ボタン*/
+.bot {
+	margin-top: 0px;
+	margin-left: 10px;
+}
+
+.slider {
+	margin-top: 0px;
+	margin-left: 10px;
+}
