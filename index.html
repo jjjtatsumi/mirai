@@ -9,9 +9,21 @@
 <script type="text/javascript" src="js/jquery.min.1.7.js"></script>
 <script type="text/javascript" src="js/extras/modernizr.2.5.3.min.js"></script>
 </head>
+	
 <body>
+<!--      <div class="bot"> -->
+        <audio src="bgm/hinatabokko.mp3" loop ></audio>
+	<div id="play">Play</div>
+        <div id="stop">Stop</div>
+<!--      </div> -->
 
-<div class="flipbook-viewport">
+<!--      <div class="slider"> -->
+	<img src="pages/volume-down.svg" width="20" Height="20">
+	<input type="range" id="volume" value="0.5" min="0.0" max="1.0" step="0.01">
+        <img src="pages/volume-up.svg" width="20" Height="20">
+	<!--      </div> -->
+  
+<script src="js/audio.js"></script><div class="flipbook-viewport">
 	<div class="container">
 		<div class="flipbook">
 			<div style="background-image:url(pages/1.jpg)"></div>
@@ -82,7 +94,7 @@ function loadApp() {
 	$('.flipbook').turn({
 			// Width
 
-			width:922,
+			width:848,
 			
 			// Height
 
